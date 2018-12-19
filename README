@@ -38,7 +38,7 @@ NOTE: 'goggle' graphical user interface is not recommended for remote and X-less
 
 To build the whole image for microSD with TRIK firmware, run this:
 
-	$ bitbake trik-image
+	$ bitbake trik-image-core
 
 To build the whole image for microSD with TRIK firmware with support additonal programming languages such as C#,F#(mono) and erlang, run this:
 
