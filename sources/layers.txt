@@ -1,7 +1,7 @@
 bitbake,https://github.com/openembedded/bitbake.git,1.32,HEAD
 openembedded-core,https://github.com/openembedded/openembedded-core.git,morty,HEAD
 meta-openembedded,https://github.com/openembedded/meta-openembedded.git,morty,HEAD
-meta-linaro,git://git.linaro.org/openembedded/meta-linaro.git,morty,HEAD
+meta-linaro,https://git.linaro.org/openembedded/meta-linaro.git,morty,HEAD
 meta-ti,git://git.yoctoproject.org/meta-ti,morty,HEAD
 meta-qt5,https://github.com/meta-qt5/meta-qt5.git,sumo,HEAD
 meta-mingw,git://git.yoctoproject.org/meta-mingw.git,morty,HEAD
