@@ -26,8 +26,7 @@ ARG host_gid=1001
 RUN groupadd -g $host_gid sandbox && \
     useradd -g $host_gid -M -s /bin/bash -u $host_uid sandbox 
 RUN mkdir /sandbox && chown sandbox:sandbox /sandbox
-RUN git config --system --add safe.directory '*'
-
+RUN git config --system --add safe.directory '*' && git config --system url."https://github.com/".insteadOf "git://github.com/"
 
 USER sandbox
 WORKDIR /sandbox
